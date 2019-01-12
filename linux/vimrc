@@ -5,6 +5,8 @@ autocmd vimenter * NERDTree
 set number
 colorscheme gruvbox
 
+let g:javascript_plugin_jsdoc = 1
+
 let g:syntastic_mode_map = { 'mode': 'active',
                             \ 'active_filetypes': ['javascript'],
                             \ 'passive_filetypes': [] }
