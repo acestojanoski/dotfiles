@@ -3,4 +3,7 @@ SHOW_SEARCH_RESULTS: ":copen"
 OPEN_TERMINAL: "CTRL+z"
 GO_BACK_TO_VIM: "fg"
 NAVIGATE_THROUGH_WINDOWS: "CTRL+w and with arrows"
+SET_VIMDIFF_AS_MERGETOOL: "git config --global merge.tool vimdiff"
+GIT_DIFF: "git difftool"
+GIT_MERGETOOL: "git mergetool"
 
