@@ -1,0 +1,5 @@
+rofi.theme:             gruvbox-dark
+rofi.show-icons:        true
+rofi.font:              hack 10
+rofi.display-drun:      run: 
+
