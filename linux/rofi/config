@@ -1,5 +1,4 @@
-rofi.theme:             gruvbox-dark
+rofi.theme:             ace-theme
 rofi.show-icons:        true
 rofi.font:              hack 10
-rofi.display-drun:      run: 
-
+rofi.display-drun:      run 

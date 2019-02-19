@@ -4,4 +4,4 @@
 <p>In linux folder there is one file with vim useful commands, and one with vim installed modules.</p>
 <h3>Rofi</h3>
 <p>Put the linux/rofi/config file in .config/rofi/ folder</p>
-
+<p>Put the linux/rofi/ace-theme.rasi file in .config/rofi/ folder</p>
