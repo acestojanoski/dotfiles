@@ -1,4 +1,4 @@
-# Rofi configuration
+# Rofi
 
 ## Shortcut
 
