@@ -6,4 +6,3 @@ NAVIGATE_THROUGH_WINDOWS: "CTRL+w and with arrows"
 SET_VIMDIFF_AS_MERGETOOL: "git config --global merge.tool vimdiff"
 GIT_DIFF: "git difftool"
 GIT_MERGETOOL: "git mergetool"
-
