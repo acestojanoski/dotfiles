@@ -3,7 +3,8 @@
 ## Contents
 *   [linux](#linux)
 *   [linux -> home](#home)
-*   [linux -> home -> .config](#rofi)
+*   [linux -> home -> .config](#config)
+*   [linux -> vim](#vim)
 
 ## Linux
 
@@ -13,13 +14,10 @@ Linux configuration files
 
 Home folder of the user and config files.
 
-### Rofi
+### Config
 
-Rofi configuration files
+.config folder in the home folder of the user with all of the subfolders and config files.
 
-***
+### Vim
 
-## Vim
-
-*   [Vim installed modules](https://gitlab.com/acestojanoski/my-config-files/blob/master/linux/vim-installed-modules.yaml)
-*   [Vim useful commands](https://gitlab.com/acestojanoski/my-config-files/blob/master/linux/vim-useful-commands.yaml)
+Vim requirements
