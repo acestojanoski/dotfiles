@@ -2,7 +2,7 @@
 
 ## Shortcut
 
-For KDE desktop environment, set this action for **Meta+D** shortcut: **rofi -show drun**
+Set this action for **Meta+D** shortcut: **rofi -show drun**
 
 ## ace-theme.rasi
 
