@@ -4,6 +4,7 @@ filetype plugin indent on
 autocmd vimenter * NERDTree
 set number
 colorscheme gruvbox
+set background=dark    " Setting dark mode
 
 let g:javascript_plugin_jsdoc = 1
 
