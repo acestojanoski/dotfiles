@@ -1,6 +1,6 @@
 gruvbox: https://github.com/morhetz/gruvbox
 nerdtree: https://github.com/scrooloose/nerdtree
-lightline.vim: https://github.com/itchyny/lightline.vim
+lightline-vim: https://github.com/itchyny/lightline.vim
 vim-javascript: https://github.com/pangloss/vim-javascript
 syntastic: https://github.com/vim-syntastic/syntastic
 YouCompleteMe: https://github.com/Valloric/YouCompleteMe

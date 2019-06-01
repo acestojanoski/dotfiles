@@ -2,7 +2,7 @@
 
 ## Shortcut
 
-Set this action for **Meta+D** shortcut: **rofi -show drun**
+Shortcut command: **rofi -show drun**
 
 ## ace-theme.rasi
 
