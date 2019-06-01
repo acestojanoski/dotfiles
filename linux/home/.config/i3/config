@@ -187,18 +187,27 @@ bar {
 }
 
 # Custom bindings and startup apps
-bindsym $mod+Shift+d exec rofi -show drun
+# rofi or j4-dmenu-desktop binding
+bindsym $mod+Shift+d exec j4-dmenu-desktop #rofi -show drun
+# i3lock binding
 bindsym $mod+Ctrl+l exec i3lock
+# shutter screenshot tool binding
 bindsym $mod+Shift+s exec shutter -s
+# Switch keyboard layout command and binding
 bindsym $mod+Caps_Lock exec (setxkbmap -query | grep -q "layout:\s\+us") && setxkbmap mk || setxkbmap us
 
+# background
 exec_always feh --bg-scale /usr/share/backgrounds/linuxmint-tessa/skunze_beach.jpg
+# transparency
 exec_always compton
+# terminator
 exec_always terminator
+# caja file browser
 exec_always caja
 
 # Used to fix touchpad problems
 exec xinput set-prop 14 278 1
+# status bar applets
 exec --no-startup-id nm-applet
 exec --no-startup-id mate-volume-control-applet
 exec --no-startup-id nvidia-prime-applet
