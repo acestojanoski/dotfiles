@@ -94,7 +94,7 @@ bindsym $mod+a focus parent
 
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
-set $ws1 "1:Terminals"
+set $ws1 "1:Home"
 set $ws2 "2:Browser"
 set $ws3 "3:Editors"
 set $ws4 "4:Random"
@@ -195,7 +195,10 @@ bindsym $mod+Caps_Lock exec (setxkbmap -query | grep -q "layout:\s\+us") && setx
 exec_always feh --bg-scale /usr/share/backgrounds/linuxmint-tessa/skunze_beach.jpg
 exec_always compton
 exec_always terminator
+exec_always caja
 
+# Used to fix touchpad problems
+exec xinput set-prop 14 278 1
 exec --no-startup-id nm-applet
 exec --no-startup-id mate-volume-control-applet
 exec --no-startup-id nvidia-prime-applet
