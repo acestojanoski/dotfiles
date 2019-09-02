@@ -1,28 +1,27 @@
+" pathogen configuration
 execute pathogen#infect()
 syntax on
 filetype plugin indent on
-autocmd vimenter * NERDTree
+
+" vim configuration
 set number
-colorscheme gruvbox
-set background=dark    " Setting dark mode
-
-let g:javascript_plugin_jsdoc = 1
-
-let g:syntastic_mode_map = { 'mode': 'active',
-                            \ 'active_filetypes': ['javascript'],
-                            \ 'passive_filetypes': [] }
-
-set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
-
-let g:syntastic_always_populate_loc_list = 1
-let g:syntastic_auto_loc_list = 1
-let g:syntastic_check_on_open = 1
-let g:syntastic_check_on_wq = 0
-let g:syntastic_javascript_checkers = ['eslint']
-let NERDTreeShowHidden=1
-
 set tabstop=4
 set shiftwidth=4
 set expandtab
+
+" nerdtree configuration
+autocmd vimenter * NERDTree
+let NERDTreeShowHidden=1
+
+" color scheme
+colorscheme gruvbox
+set background=dark
+let g:gruvbox_contrast='hard'
+
+" vim-javascript configuration
+let g:javascript_plugin_jsdoc = 1
+
+" ale configuration
+let g:ale_linters = {'javascript': ['eslint']}
+let g:ale_fixers = {'javascript': ['eslint']}
+let g:ale_fix_on_save = 1
