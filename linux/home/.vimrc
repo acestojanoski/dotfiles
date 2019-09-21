@@ -14,9 +14,10 @@ autocmd vimenter * NERDTree
 let NERDTreeShowHidden=1
 
 " color scheme
-colorscheme gruvbox
-set background=dark
-let g:gruvbox_contrast='hard'
+" colorscheme gruvbox
+" set background=dark
+" let g:gruvbox_contrast='hard'
+colorscheme minimalist
 
 " vim-javascript configuration
 let g:javascript_plugin_jsdoc = 1
